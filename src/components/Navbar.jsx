@@ -54,7 +54,7 @@ const Navbar = () => {
                                     <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-orange-500 transition-all duration-300 group-hover:w-full" />
                                 </button>
                             ))}
-                            <button className="bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition-colors"
+                            <button className="bg-custom-red text-white px-6 py-2 rounded-full hover:bg-custom-red-light transition-colors"
                                 onClick={() => setIsContactOpen(true)}>
                                 Contact us
                             </button>
@@ -105,7 +105,7 @@ const Navbar = () => {
                                     {item}
                                 </button>
                             ))}
-                               <button className= "w-full bg-orange-500 text-white px-6 py-2 rounded-full hover:bg-orange-600 transition-colors"
+                               <button className= "w-full bg-custom-red text-white px-6 py-2 rounded-full hover:bg-custom-red-light transition-colors"
                                 onClick={() => setIsContactOpen(true)}>
                                 Contact us
                             </button>

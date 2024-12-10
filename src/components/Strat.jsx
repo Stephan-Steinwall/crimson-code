@@ -23,7 +23,7 @@ const Strat = () => {
         {/* Right Column */}
         <div className="text-left md:text-right mt-6 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold inline-block">
-            <span className="text-orange-500">From strategy</span>
+            <span className="text-custom-red">From strategy</span>
             <br />
             <span className="text-gray-900">to execution</span>
           </h1>

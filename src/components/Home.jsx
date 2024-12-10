@@ -6,7 +6,7 @@ const Home = () => {
             {/* Main Heading */}
             <div className="mb-8 md:mb-12">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
-                    <span className="text-orange-500">Future of your</span>
+                    <span className="text-custom-red">Future of your</span>
                     <br />
                     <span className="text-gray-900">business is today.</span>
                 </h1>
@@ -62,7 +62,7 @@ const Home = () => {
                         <div className="space-y-3 md:space-y-4">
                             <div className="flex gap-4 md:gap-6">
                                 <div>
-                                    <h3 className="text-2xl md:text-3xl font-bold text-orange-500">96%</h3>
+                                    <h3 className="text-2xl md:text-3xl font-bold text-custom-red">96%</h3>
                                 </div>
                                 <div>
                                     <h3 className="text-2xl md:text-3xl font-bold">4.9</h3>

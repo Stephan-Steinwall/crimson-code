@@ -7,7 +7,7 @@ const Cards = () => {
        
         <div className="bg-white rounded-3xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer group">
           <div className="flex justify-between items-start mb-6">
-            <h2 className="text-xl font-bold max-w-[200px] group-hover:text-orange-500 transition-colors duration-300">Build the future of your business</h2>
+            <h2 className="text-xl font-bold max-w-[200px] group-hover:text-custom-red-light transition-colors duration-300">Build the future of your business</h2>
             <svg className="w-6 h-6 text-gray-800 transform rotate-45 group-hover:translate-x-1 group-hover:translate-y--1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5l7 7m0 0l-7 7m7-7H3" />
             </svg>
@@ -18,7 +18,7 @@ const Cards = () => {
         </div>
 
         
-        <div className="bg-orange-500 rounded-3xl p-8 text-white hover:bg-orange-600 transition-all duration-300 hover:-translate-y-1 cursor-pointer group">
+        <div className="bg-custom-red rounded-3xl p-8 text-white hover:bg-custom-red-light transition-all duration-300 hover:-translate-y-1 cursor-pointer group">
           <div className="flex justify-between items-start mb-6">
             <h2 className="text-xl font-bold max-w-[200px]">We are here to help your business</h2>
             <svg className="w-6 h-6 text-white transform rotate-45 group-hover:translate-x-1 group-hover:translate-y--1 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">

@@ -7,7 +7,7 @@ const CardDes = (props) => {
                 {props.heading}
             </h2>
             <div className="flex gap-8 mb-4">
-                <span className="text-4xl font-bold text-orange-500 ">{props.val1}</span>
+                <span className="text-4xl font-bold text-custom-red ">{props.val1}</span>
                 <span className="text-4xl font-bold ">{props.val2}</span>
             </div>
             <p className="text-gray-600 group-hover:text-gray-800 transition-colors duration-300">

@@ -20,7 +20,7 @@ const Banner = () => {
           </h2>
           
           <div className="flex gap-8 mb-6">
-            <span className="text-4xl font-bold text-orange-500">7000+</span>
+            <span className="text-4xl font-bold text-custom-red">7000+</span>
             <span className="text-4xl font-bold">120K</span>
           </div>
           

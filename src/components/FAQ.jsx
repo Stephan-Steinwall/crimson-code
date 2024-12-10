@@ -16,7 +16,7 @@ const FAQ = () => {
     {
       question: "Different from other agencies?",
       answer: "We take the time to understand your unique challenges and provide strategies",
-      bgColor: "bg-orange-500",
+      bgColor: "bg-custom-red",
       textColor: "text-white"
     },
     {
@@ -69,11 +69,11 @@ const FAQ = () => {
               <div className="p-4 md:p-6">
                 <div className="flex justify-between items-center gap-3 md:gap-4">
                   <h3 className={`font-bold text-base md:text-xl ${faq.textColor || 'text-black'}`}>{faq.question}</h3>
-                  <div className={`${faq.bgColor === 'bg-orange-500' ? 'bg-white' : 'bg-orange-50'} p-2 rounded-lg flex-shrink-0`}>
+                  <div className={`${faq.bgColor === 'bg-custom-red' ? 'bg-white' : 'bg-orange-50'} p-2 rounded-lg flex-shrink-0`}>
                     <svg 
                       className={`w-3 h-3 md:w-4 md:h-4 transform transition-transform duration-300 ${
                         activeIndex === index ? 'rotate-180' : 'rotate-45'
-                      } ${faq.bgColor === 'bg-orange-500' ? 'text-orange-500' : 'text-orange-500'}`}
+                      } ${faq.bgColor === 'bg-custom-red' ? 'text-custom-red' : 'text-custom-red'}`}
                       fill="none" 
                       stroke="currentColor" 
                       viewBox="0 0 24 24"
@@ -108,7 +108,7 @@ const FAQ = () => {
                   <svg 
                     className={`w-5 h-5 md:w-6 md:h-6 transform transition-transform duration-300 ${
                       activeIndex === index + 3 ? 'rotate-180' : 'rotate-0'
-                    } text-orange-500 flex-shrink-0`}
+                    } text-custom-red flex-shrink-0`}
                     fill="none"
                     stroke="currentColor"
                     viewBox="0 0 24 24"

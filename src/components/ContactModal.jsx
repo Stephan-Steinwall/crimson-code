@@ -67,7 +67,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                 name="name"
                 value={formData.name}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-all"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-custom-red focus:border-custom-red outline-none transition-all"
                 required
               />
             </div>
@@ -80,7 +80,7 @@ const ContactModal = ({ isOpen, onClose }) => {
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
-                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-all"
+                className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-custom-red focus:border-custom-red outline-none transition-all"
                 required
               />
             </div>
@@ -95,7 +95,7 @@ const ContactModal = ({ isOpen, onClose }) => {
               name="subject"
               value={formData.subject}
               onChange={handleChange}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-all"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-custom-red focus:border-custom-red outline-none transition-all"
               required
             />
           </div>
@@ -109,7 +109,7 @@ const ContactModal = ({ isOpen, onClose }) => {
               value={formData.message}
               onChange={handleChange}
               rows={4}
-              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-500 focus:border-orange-500 outline-none transition-all resize-none"
+              className="w-full px-4 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-custom-red focus:border-custom-red outline-none transition-all resize-none"
               required
             />
           </div>
@@ -141,7 +141,7 @@ const ContactModal = ({ isOpen, onClose }) => {
             </button>
             <button
               type="submit"
-              className="px-6 py-2 bg-orange-500 text-white rounded-full hover:bg-orange-600 transition-colors"
+              className="px-6 py-2 bg-custom-red text-white rounded-full hover:bg-custom-red-light transition-colors"
             >
               Send Message
             </button>

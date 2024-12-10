@@ -97,7 +97,7 @@ const Carousel = () => {
             {/* Progress Bar - unchanged */}
             <div className="h-1 bg-gray-200 mb-5 rounded-full overflow-hidden">
                 <div
-                    className="h-full bg-orange-500 transition-all duration-200 ease-linear"
+                    className="h-full bg-custom-red transition-all duration-200 ease-linear"
                     style={{ width: `${progressWidth}%` }}
                 />
             </div>
