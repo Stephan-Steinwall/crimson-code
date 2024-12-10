@@ -3,7 +3,7 @@ import React from 'react';
 const Home = () => {
     return (
         <div className="scroll-mt-[145px] mt-10 md:mt-[100px] max-w-7xl mx-auto p-4 md:p-8" id='home'>
-            {/* Main Heading */}
+           
             <div className="mb-8 md:mb-12">
                 <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold">
                     <span className="text-custom-red">Future of your</span>
@@ -13,9 +13,9 @@ const Home = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
-                {/* Left Column */}
+            
                 <div className="space-y-6 md:space-y-8">
-                    {/* Top Content */}
+                 
                     <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
                         <div className="w-full md:w-[500px] h-[150px] md:h-[200px] bg-gray-100 rounded-lg" />
                         <p className="text-gray-700 text-sm md:text-base">
@@ -23,9 +23,9 @@ const Home = () => {
                         </p>
                     </div>
 
-                    {/* Stats Grid */}
+                
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6">
-                        {/* First Stat */}
+                      
                         <div className="flex items-center gap-3 md:gap-4">
                             <div className="w-16 h-16 md:w-20 md:h-20 bg-orange-100 rounded-lg flex items-center justify-center">
                                 <svg className="w-8 h-8 md:w-12 md:h-12 text-orange-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -38,7 +38,7 @@ const Home = () => {
                             </div>
                         </div>
 
-                        {/* Second Stat */}
+                      
                         <div className="flex items-center gap-3 md:gap-4">
                             <div className="w-16 h-16 md:w-20 md:h-20 bg-orange-100 rounded-lg flex items-center justify-center">
                                 <svg className="w-8 h-8 md:w-12 md:h-12 text-orange-500" fill="currentColor" viewBox="0 0 24 24">
@@ -55,7 +55,7 @@ const Home = () => {
                     </div>
                 </div>
 
-                {/* Right Column */}
+             
                 <div className="relative mt-8 md:mt-0">
                     <div className="bg-gray-200 rounded-tr-[50px] md:rounded-tr-[100px] rounded-bl-[50px] md:rounded-bl-[100px] h-full absolute right-0 w-3/4" />
                     <div className="bg-white p-4 md:p-6 rounded-lg shadow-lg relative z-10 mt-6 md:mt-12 mr-4 md:mr-12">

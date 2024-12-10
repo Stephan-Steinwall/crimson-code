@@ -4,7 +4,7 @@ const Banner = () => {
   return (
     <div className="my-10 max-w-7xl mx-auto p-8">
       <div className="relative">
-        {/* Background Image Placeholder Section */}
+
         <div className="bg-gray-300 h-[400px] rounded-[40px] w-full">
           <img 
             src="https://placehold.co/800x400"
@@ -13,7 +13,7 @@ const Banner = () => {
           />
         </div>
 
-        {/* Floating Text Card */}
+  
         <div className="absolute right-8 top-1/2 -translate-y-1/2 bg-white p-8 rounded-[20px] shadow-xl max-w-md">
           <h2 className="text-2xl font-bold mb-6">
             Excellence through innovation

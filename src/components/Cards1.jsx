@@ -35,7 +35,7 @@ const Cards1 = () => {
 
                 </div>
 
-                {/* Right Column - Image Placeholder */}
+               
                 <div className="bg-gray-200 rounded-[40px] h-[600px] w-full transition-transform duration-300 hover:scale-[1.02]">
                     <img
                         src="https://placehold.co/600x600"

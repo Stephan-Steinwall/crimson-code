@@ -4,14 +4,13 @@ const Strat2 = () => {
     return (
         <div className="scroll-mt-[145px] max-w-7xl mx-auto p-4 md:p-8" id='services'>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
-                {/* Left Column */}
+         
                 <div className="text-left">
                     <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold inline-block">
                         <span className="text-gray-900">Build the future of your business today</span>
                     </h1>
                 </div>
 
-                {/* Right Column */}
                 <div className="space-y-4 md:space-y-6 text-left md:text-right mt-6 md:mt-0">
                     <div>
                         <h2 className="text-2xl md:text-3xl font-bold mb-1 md:mb-2">

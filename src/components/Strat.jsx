@@ -4,7 +4,7 @@ const Strat = () => {
   return (
     <div className="my-5 md:my-10 max-w-7xl mx-auto p-4 md:p-8">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-12">
-        {/* Left Column */}
+     
         <div className="space-y-4 md:space-y-6 text-left">
           <div>
             <h2 className="text-2xl md:text-3xl font-bold mb-1 md:mb-2">
@@ -20,7 +20,7 @@ const Strat = () => {
           </p>
         </div>
 
-        {/* Right Column */}
+       
         <div className="text-left md:text-right mt-6 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-7xl font-bold inline-block">
             <span className="text-custom-red">From strategy</span>

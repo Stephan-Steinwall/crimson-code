@@ -4,11 +4,11 @@ const Footer = () => {
   return (
     <footer className="bg-black text-white">
       <div className="max-w-7xl mx-auto px-8 py-16">
-        {/* Top Section */}
+    
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
-          {/* Logo and About */}
+        
           <div className="space-y-6">
-            {/* Logo Placeholder */}
+       
             <div className="w-40 rounded-lg flex items-center justify-center text-orange-500 font-bold">
               <img src="logo/clogo.svg" alt="" />
             </div>
@@ -34,7 +34,7 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Quick Links */}
+        
           <div>
             <h3 className="text-lg font-bold mb-6">Quick Links</h3>
             <ul className="space-y-4">
@@ -45,7 +45,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Services */}
+        
           <div>
             <h3 className="text-lg font-bold mb-6">Our Services</h3>
             <ul className="space-y-4">
@@ -56,7 +56,7 @@ const Footer = () => {
             </ul>
           </div>
 
-          {/* Contact */}
+        
           <div>
             <h3 className="text-lg font-bold mb-6">Contact Us</h3>
             <div className="space-y-4 text-gray-400">
@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Bottom Section */}
+      
         <div className="pt-8 border-t border-gray-800 text-gray-400">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p>&copy; 2024 Crimson Script. All rights reserved.</p>

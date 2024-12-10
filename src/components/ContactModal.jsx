@@ -10,7 +10,7 @@ const ContactModal = ({ isOpen, onClose }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission logic here
+
     console.log('Form submitted:', formData);
     onClose();
   };
@@ -30,7 +30,7 @@ const ContactModal = ({ isOpen, onClose }) => {
         className="bg-white rounded-2xl w-full max-w-2xl transform transition-all duration-300"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header */}
+    
         <div className="p-6 border-b border-gray-200">
           <div className="flex items-center justify-between">
             <h2 className="text-2xl font-bold">Contact Us</h2>
@@ -55,7 +55,7 @@ const ContactModal = ({ isOpen, onClose }) => {
           </div>
         </div>
 
-        {/* Form */}
+     
         <form onSubmit={handleSubmit} className="p-6 space-y-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <div>
@@ -114,7 +114,7 @@ const ContactModal = ({ isOpen, onClose }) => {
             />
           </div>
 
-          {/* Contact Info */}
+     
           <div className="bg-gray-50 rounded-lg p-4 space-y-2">
             <p className="text-sm text-gray-600">You can also reach us at:</p>
             <div className="flex items-center gap-2 text-sm text-gray-600">

@@ -6,7 +6,7 @@ const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [isContactOpen, setIsContactOpen] = useState(false);
 
-    // Handle scroll effect
+
     useEffect(() => {
         const handleScroll = () => {
             setIsScrolled(window.scrollY > 20);
@@ -15,7 +15,7 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
-    // Smooth scroll function
+
     const scrollToSection = (sectionId) => {
         const element = document.getElementById(sectionId);
         if (element) {
@@ -37,12 +37,13 @@ const Navbar = () => {
             >
                 <div className="max-w-7xl mx-auto px-6">
                     <div className="flex items-center justify-between h-20">
-                        {/* Logo Placeholder */}
+                        
                         <div className="h-10 w-20 rounded-lg flex items-center justify-center font-bold">
-                            <img src="/logo/clogo.svg" alt="Logo" className='rounded-full flex items-center justify-center' />
+                            <img src="/logo/clogo.svg" alt="Logo" className='rounded-full flex items-center justify-center'/>
+                            
                         </div>
 
-                        {/* Desktop Navigation */}
+                        
                         <div className="hidden md:flex items-center space-x-8">
                             {['Home', 'Services', 'About', 'FAQ'].map((item) => (
                                 <button
@@ -60,7 +61,7 @@ const Navbar = () => {
                             </button>
                         </div>
 
-                        {/* Mobile Menu Button */}
+                       
                         <button
                             className="md:hidden w-10 h-10 flex items-center justify-center"
                             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -90,7 +91,6 @@ const Navbar = () => {
                         </button>
                     </div>
 
-                    {/* Mobile Menu */}
                     <div
                         className={`md:hidden absolute top-full left-0 right-0 bg-white/80 backdrop-blur-lg transition-all duration-300 ${isMenuOpen ? 'max-h-96 shadow-lg' : 'max-h-0'
                             } overflow-hidden`}
