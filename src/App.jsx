@@ -1,5 +1,5 @@
 import React from "react";
-import { Home, Cards, Strat, Banner, Strat2, Carousal } from "./components";
+import { Home, Cards, Strat, Banner, Strat2, Carousal ,Cards1 } from "./components";
 
 function App() {
 
@@ -11,6 +11,7 @@ function App() {
       <Banner/>
       <Strat2/>
       <Carousal/>
+      <Cards1/>
     </div>
   )
 }
