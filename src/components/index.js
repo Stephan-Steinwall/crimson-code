@@ -8,3 +8,4 @@ export { default as Cards1 } from './Cards1';
 export { default as FAQ } from './FAQ';
 export { default as Footer } from './Footer';
 export { default as Navbar } from './Navbar';
+export { default as ContactModal } from './ContactModal';

@@ -17,8 +17,18 @@ const Cards1 = () => {
 
 
 
-                    <CardDes heading="Excellence through innovation" val1="1000+" val2="120K" desc="As a full-service business agency, we specialize in helping companies of all sizes optimize their operations" />
-                    <CardDes heading="Trusted partner for business success" val1="5000+" val2="710K" desc=" As a full-service business agency, we specialize in helping companies of all sizes optimize their operations" />
+                <CardDes 
+  heading="Excellence through innovation" 
+  val1="20+" 
+  val2="50+" 
+  desc="As a dynamic startup, we've successfully delivered over 20 innovative projects, transforming businesses through strategic digital solutions" 
+/>
+<CardDes 
+  heading="Trusted partner for growth" 
+  val1="96%" 
+  val2="4.9" 
+  desc="With a 96% client satisfaction rate and 4.9/5 average rating, we take pride in building lasting partnerships and delivering measurable results" 
+/>
 
 
                     

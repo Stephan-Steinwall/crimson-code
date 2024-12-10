@@ -9,8 +9,8 @@ const Footer = () => {
           {/* Logo and About */}
           <div className="space-y-6">
             {/* Logo Placeholder */}
-            <div className="h-12 w-40 bg-white/10 rounded-lg flex items-center justify-center text-orange-500 font-bold">
-              LOGO
+            <div className="w-40 rounded-lg flex items-center justify-center text-orange-500 font-bold">
+              <img src="logo/clogo.svg" alt="" />
             </div>
             <p className="text-gray-400">
               As a full-service business agency, we specialize in helping companies of all sizes optimize their operations
@@ -60,9 +60,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-6">Contact Us</h3>
             <div className="space-y-4 text-gray-400">
-              <p>Email: info@example.com</p>
-              <p>Phone: (123) 456-7890</p>
-              <p>Address: 123 Business Ave, Suite 100, City, State 12345</p>
+              <p>Email: contact@crimsonscript.com</p>
+              <p>Phone: +94 75 351 5818</p>
+              <p>Address: Gampaha </p>
             </div>
           </div>
         </div>
@@ -70,7 +70,7 @@ const Footer = () => {
         {/* Bottom Section */}
         <div className="pt-8 border-t border-gray-800 text-gray-400">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-            <p>&copy; 2024 Your Business. All rights reserved.</p>
+            <p>&copy; 2024 Crimson Script. All rights reserved.</p>
             <div className="flex gap-6">
               <span className="hover:text-orange-500 transition-colors cursor-pointer">Privacy Policy</span>
               <span className="hover:text-orange-500 transition-colors cursor-pointer">Terms of Service</span>
