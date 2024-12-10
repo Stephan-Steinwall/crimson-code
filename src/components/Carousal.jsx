@@ -111,7 +111,7 @@ const Carousel = () => {
             
                 <div className="h-1 bg-gray-200 mb-5 rounded-full overflow-hidden">
                     <div
-                        className="h-full bg-orange-500 transition-all duration-200 ease-linear"
+                        className="h-full bg-custom-red transition-all duration-200 ease-linear"
                         style={{ width: `${progressWidth}%` }}
                     />
                 </div>
@@ -134,7 +134,7 @@ const Carousel = () => {
                                     <div className="flex justify-end mb-4">
                                         <div className="w-8 h-8 bg-orange-50 rounded-lg flex items-center justify-center">
                                             <svg
-                                                className="w-4 h-4 text-orange-500 transform rotate-45"
+                                                className="w-4 h-4 text-custom-red transform rotate-45"
                                                 fill="none"
                                                 stroke="currentColor"
                                                 viewBox="0 0 24 24"
