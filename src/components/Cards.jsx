@@ -41,7 +41,7 @@ const Cards = () => {
           <p className="text-gray-600 text-sm mb-8">
             As a full-service business agency, we specialize in helping companies of all sizes optimize their operations
           </p>
-          <button className="bg-black text-white px-6 py-2 rounded-full text-sm hover:bg-orange-500 transition-colors duration-300 transform hover:scale-105">
+          <button className="bg-custom-red text-white px-6 py-2 w-full rounded-full text-sm hover:bg-custom-red-light transition-colors duration-300 transform hover:scale-105">
            Contact Us
           </button>
         </div>
