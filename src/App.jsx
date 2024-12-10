@@ -1,8 +1,5 @@
-import React from "react"
-import Home from "./components/Home"
-import Cards from "./components/Cards"
-import Strat from "./components/Strat"
-import Banner from "./components/Banner"
+import React from "react";
+import { Home, Cards, Strat, Banner, Strat2, Carousal } from "./components";
 
 function App() {
 
@@ -12,6 +9,8 @@ function App() {
       <Cards/>
       <Strat/>
       <Banner/>
+      <Strat2/>
+      <Carousal/>
     </div>
   )
 }
