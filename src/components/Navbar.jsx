@@ -92,7 +92,7 @@ const Navbar = () => {
                     </div>
 
                     <div
-                        className={`md:hidden absolute top-full left-0 right-0 bg-white/80 backdrop-blur-lg transition-all duration-300 ${isMenuOpen ? 'max-h-96 shadow-lg' : 'max-h-0'
+                        className={`md:hidden absolute top-full left-0 right-0 bg-white backdrop-blur-lg transition-all duration-300 ${isMenuOpen ? 'max-h-96 shadow-lg' : 'max-h-0'
                             } overflow-hidden`}
                     >
                         <div className="px-4 py-2 space-y-4">
