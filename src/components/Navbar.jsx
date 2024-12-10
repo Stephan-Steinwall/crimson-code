@@ -35,10 +35,10 @@ const Navbar = () => {
                         : 'bg-transparent mb-5'
                     }`}
             >
-                <div className="max-w-7xl mx-auto px-6">
-                    <div className="flex items-center justify-between h-20">
+                <div className="max-w-7xl mx-auto px-">
+                    <div className="flex items-center justify-between h-[70px]">
                         
-                        <div className="h-10 w-20 rounded-lg flex items-center justify-center font-bold">
+                        <div className="h-10 w-20 p-3 rounded-lg flex items-center justify-center font-bold">
                             <img src="/logo/clogo.svg" alt="Logo" className='rounded-full flex items-center justify-center'/>
                             
                         </div>
