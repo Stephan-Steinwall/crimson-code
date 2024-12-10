@@ -17,7 +17,7 @@ const Home = () => {
                 <div className="space-y-6 md:space-y-8">
                  
                     <div className="flex flex-col md:flex-row items-start md:items-center gap-4">
-                        <div className="w-full md:w-[500px] h-[150px] md:h-[200px] bg-gray-100 rounded-lg" />
+                        <img src="/img/ac.svg" alt="Image" className='h-20 md:h-24'/>
                         <p className="text-gray-700 text-sm md:text-base">
                             Where we elevate your business with innovative strategies and expert solutions. As a full-service business agency
                         </p>

@@ -7,7 +7,8 @@ const Banner = () => {
 
         <div className="bg-gray-300 h-[400px] rounded-[40px] w-full">
           <img 
-            src="https://placehold.co/800x400"
+            // src="https://placehold.co/800x400"
+            src="/img/ab.svg"
             alt="placeholder" 
             className="w-full h-full object-cover rounded-[40px]"
           />

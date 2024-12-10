@@ -38,7 +38,7 @@ const Cards1 = () => {
                
                 <div className="bg-gray-200 rounded-[40px] h-[600px] w-full transition-transform duration-300 hover:scale-[1.02]">
                     <img
-                        src="https://placehold.co/600x600"
+                        src="/img/ac.svg"
                         alt="placeholder"
                         className="w-full h-full object-cover rounded-[40px]"
                     />
