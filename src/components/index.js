@@ -5,3 +5,6 @@ export { default as Banner } from './Banner';
 export { default as Strat2 } from './Strat2';
 export { default as Carousal } from './Carousal';
 export { default as Cards1 } from './Cards1';
+export { default as FAQ } from './FAQ';
+export { default as Footer } from './Footer';
+export { default as Navbar } from './Navbar';

@@ -2,7 +2,7 @@ import React from 'react';
 
 const Strat = () => {
     return (
-        <div className="my-10 max-w-7xl mx-auto p-8">
+        <div className="scroll-mt-[145px] max-w-7xl mx-auto p-8" id='services'>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
 
                 <div className="text-left">

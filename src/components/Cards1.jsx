@@ -3,7 +3,7 @@ import CardDes from './CardDes';
 
 const Cards1 = () => {
     return (
-        <div className="max-w-7xl mx-auto p-8">
+        <div className="scroll-mt-20 my-10 max-w-7xl mx-auto p-8" id='about'>
 
             <h1 className="text-5xl font-bold mb-5">
                 Empowering your <span className="text-orange-500">business with</span>

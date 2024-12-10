@@ -2,7 +2,7 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div className="max-w-7xl mx-auto p-8">
+        <div className="scroll-mt-[145px] mt-20 max-w-7xl mx-auto p-8" id='home'>
 
             <div className="mb-12">
                 <h1 className="text-6xl font-bold">
